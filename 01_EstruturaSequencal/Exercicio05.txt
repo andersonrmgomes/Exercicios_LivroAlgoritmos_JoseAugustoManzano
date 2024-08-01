@@ -3,8 +3,8 @@
 // Descrição:
 // Este exercício tem como objetivo desenvolver um programa que calcule e
 // apresente o valor de uma prestação em atraso. O programa receberá como
-// entrada o valor original da prestação sem os juros e o número de meses em
-// atraso, calculará o valor da prestação em atraso usando a fórmula fornecida
+// entrada o valor original da prestação sem os juros, o número de meses em
+// atraso e a taxa de juros, calculará o valor da prestação em atraso usando a fórmula fornecida
 // e, por fim, exibirá o valor da prestação em atraso.
 
 // Passo a Passo:
@@ -12,6 +12,7 @@
 // 1. Entrada de Dados:
 //    - Solicite ao usuário que insira o valor original da prestação.
 //    - Solicite ao usuário que insira o número de meses em atraso.
+//    - Solicite ao usuário que insira a taxa de juros mensal.
 //    - Aguarde a entrada do usuário.
 
 // 2. Processamento:
@@ -28,18 +29,13 @@
 // Exemplos:
 
 // - Exemplo 1:
-//   - Entrada: valor_original = 1000, meses_atraso = 3
-//   - Saída: 1030 (valor da prestação em atraso)
+//   - Entrada: valor_original = 1000, meses_atraso = 3, taxa_juros = 1 
+//   - Saída: O valor da prestação em atraso é de 1030 reais.
 
 // - Exemplo 2:
-//   - Entrada: valor_original = 500, meses_atraso = 2
-//   - Saída: 510 (valor da prestação em atraso)
+//   - Entrada: valor_original = 500, meses_atraso = 2, taxa_juros = 2
+//   - Saída: O valor da prestação em atraso é de 520 reais.
 
 // - Exemplo 3:
-//   - Entrada: valor_original = 1500, meses_atraso = 5
-//   - Saída: 1575 (valor da prestação em atraso)
-
-// Exemplo em Pseudocódigo:
-// 1. Solicitar valor_original, meses_atraso
-// 2. valor = valor_original * (1 + (taxa_juros / 100) * meses_atraso)
-// 3. Exibir valor
+//   - Entrada: valor_original = 1500, meses_atraso = 5, taxa_juros = 1
+//   - Saída: O valor da prestação em atraso é de 1575 reais.
