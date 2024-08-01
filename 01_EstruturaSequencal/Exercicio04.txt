@@ -28,18 +28,13 @@
 // Exemplos:
 
 // - Exemplo 1:
-//   - Entrada: distância = 240 km
-//   - Saída: 20 litros (quantidade de combustível gasta na viagem)
+//   - Entrada: distância = 240 km, consumo = 12 km/l
+//   - Saída: A quantidade de combustível gasta na viagem é de 20 litros.
 
 // - Exemplo 2:
-//   - Entrada: distância = 360 km
-//   - Saída: 30 litros (quantidade de combustível gasta na viagem)
+//   - Entrada: distância = 360 km, consumo = 12 km/l
+//   - Saída: A quantidade de combustível gasta na viagem é de 30 litros.
 
 // - Exemplo 3:
-//   - Entrada: distância = 180 km
-//   - Saída: 15 litros (quantidade de combustível gasta na viagem)
-
-// Exemplo em Pseudocódigo:
-// 1. Solicitar distância, consumo
-// 2. litros = distância / consumo
-// 3. Exibir litros
+//   - Entrada: distância = 180 km, consumo = 12 km/l
+//   - Saída: A quantidade de combustível gasta na viagem é de 15 litros.
